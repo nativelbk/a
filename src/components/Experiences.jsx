@@ -6,7 +6,7 @@ const Experiences = () => {
   return (
     <section id="xp">
       <div>
-        <Titre titre="EXPERIENCES" className='pl-[120px]'/>
+        <Titre titre="EXPERIENCES" className="pl-[10px]" />
         {/* <span> <img src="/2019-2024.png" alt="" /></span> */}
       </div>
       <div className="flex flex-col gap-6 max-w-full md:max-w-[1080px] mx-auto">

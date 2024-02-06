@@ -13,6 +13,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { useRef } from "react";
 import { motion, useScroll } from "framer-motion";
+import { Footer } from "./components/Footer";
 
 export default function App() {
   const [g1, setG1] = useState(true);
@@ -75,6 +76,9 @@ export default function App() {
       <Skills />
       <Projects />
       <Contact />
+      <div className="w-lg  px-5 py-[70px]">
+        <Footer />
+      </div>
     </>
   );
 }

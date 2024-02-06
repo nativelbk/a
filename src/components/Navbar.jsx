@@ -15,7 +15,7 @@ const Navbar = () => {
     }
   }, [scrollYProgress?.current]);
   return (
-    <div className="flex flex-wrap fixed  w-full z-40 items-center py-8 justify-around">
+    <div className="flex flex-wrap fixed font-mono  w-full z-40 items-center py-8 justify-around">
       {showAndo ? (
         <motion.div
           whileInView={{

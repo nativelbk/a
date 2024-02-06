@@ -5,8 +5,8 @@ const Hero = () => {
   return (
     <section className="flex flex-col gap-5 md:flex-row min-h-[70vh] mt-[130px] items-center justify-center ">
       <div className="flex flex-col justify-start gap-4 text-center md:text-left md:w-[50%]">
-        <h5 className="text-blue font-bold text-[24px]">Hello!!</h5>
-        <h1 className="text-white font-black text-[48px] max-sm:text-[28px] max-w-full md:max-w-[500px]">
+        <h5 className="text-blue text-bold text-[20px] h1-italic">Hello!!!</h5>
+        <h1 className="text-white font-black text-h1 font-league-spartan  max-sm:text-[28px] max-w-full md:max-w-[500px]">
           I'm Ando Nirina RANDRIANJAFY
         </h1>
 

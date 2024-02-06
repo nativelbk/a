@@ -4,12 +4,11 @@ import SocialMedia from "./SocialMedia";
 
 const Contact = () => {
   return (
-    <div
-      className="mt-16 flex flex-col min-h-screen  justify-center items-center gap-16"
-      id="contact"
-    >
+    <div className="mt-16 flex flex-col  gap-16" id="contact">
       <div className="mx-auto flex flex-col items-center  text-white w-fit">
-        <h4 className="font-extrabold text-[40px]">GET IN TOUCH</h4>
+        <h4 className="font-extrabold text-[40px] font-league-spartan ">
+          GET IN TOUCH
+        </h4>
         <p className="text-blue font-semibold ">Let&apos;s Work Together</p>
       </div>
       <div className=" w-fit justify-center mx-auto flex gap-10 flex-wrap ">

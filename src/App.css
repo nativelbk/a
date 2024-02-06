@@ -31,12 +31,17 @@
   }
 }
 
-.hero {
-  background: url("/bg-hero.png");
+body {
+  background: url("/bg.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+@media screen and (max-width: 500px) {
+  body {
+    padding: 0 10px;
+  }
+}
 .about {
   display: flex;
   /* justify-content: flex-; */
@@ -53,4 +58,11 @@
 .resume:hover {
   transform: translateY(-5px);
   transition: 0.5s;
+}
+
+.h1-italic {
+  font-family: "Space Mono Italic", monospace;
+  font-size: 24px;
+  font-style: italic;
+  /* Ajoutez d'autres styles selon vos besoins */
 }

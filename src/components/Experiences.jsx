@@ -5,9 +5,11 @@ import Titre from "./Titre";
 const Experiences = () => {
   return (
     <section id="xp">
-      <div>
-        <Titre titre="EXPERIENCES" className="pl-[10px]" />
-        {/* <span> <img src="/2019-2024.png" alt="" /></span> */}
+      <div className="block items-center gap-[200px] sm:flex">
+        <Titre titre="EXPERIENCES" className="pl-[120px]" />
+        <span>
+          <img src="/2019-2024.png" alt="" className="w-[600px] flex " />
+        </span>
       </div>
       <div className="flex flex-col gap-6 max-w-full md:max-w-[1080px] mx-auto">
         <Experience

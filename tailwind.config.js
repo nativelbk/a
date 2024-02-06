@@ -26,10 +26,12 @@ export default {
       dark:"#0D050E",
       btn:"#E200FF",
       blue: "#38b6ff"
-    },  
-    fontFamily: {
+    }, fontFamily: {
       sans: ['Graphik', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
+     serif: ['Merriweather', 'serif'],
+      mono: ['Space Mono', 'monospace'],
+      italic: ['Space Mono Italic', 'monospace'],
+      'league-spartan': ['League Spartan', 'sans-serif'],
     },
     fontSize:{
       

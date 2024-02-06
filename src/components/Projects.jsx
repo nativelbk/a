@@ -4,7 +4,10 @@ import Project from "./Project";
 import Titre from "./Titre";
 export default function Projects() {
   return (
-    <div className="min-h-screen flex justify-center items-center" id="pro">
+    <div
+      className="min-h-screen flex flex-col justify-center items-start"
+      id="pro"
+    >
       <Titre titre="PROJECTS" className="pl-[120px]" />
       <section className="mt-20 flex  justify-center items-center flex-wrap  mx-auto">
         <Project

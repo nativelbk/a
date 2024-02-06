@@ -4,8 +4,8 @@ import Skill from "./Skiil";
 import Titre from "./Titre";
 const Skills = () => {
   return (
-    <>
-      <Titre titre="SKILLS" className="pl-[120px]" />
+    <div className="min-h-screen flex flex-col  justify-between items-start">
+      <Titre titre="SKILLS" className="pl-[120px] " />
       <div className="text-white ml-[120px] mt-12 flex flex-col gap-8  ">
         <div className="flex flex-col gap-6">
           <h4 className=" font-extrabold ">Technologies</h4>
@@ -28,7 +28,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

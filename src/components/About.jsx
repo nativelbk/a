@@ -7,7 +7,10 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div className="flex  items-center max-[878px]:flex-col  max-md:flex-col sm:justify-center">
+    <div
+      id="about"
+      className="flex  items-center max-[878px]:flex-col  max-md:flex-col sm:justify-center"
+    >
       <motion.section
         initial={{
           x: -40,

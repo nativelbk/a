@@ -15,7 +15,7 @@ const Skills = () => {
             <Skill tech="/js.svg" nomtech="Js" />
             <Skill tech="/html.svg" nomtech="HTML" />
             <Skill tech="/css.svg" nomtech="Css" />
-            <Skill tech="/sql.png" nomtech="Css" />
+            <Skill tech="/sql.png" nomtech="SQL" />
           </div>
         </div>
         <div className="flex flex-col gap-6">
